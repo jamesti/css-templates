@@ -1,0 +1,31 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	background: url(/GitHub/css-templates/img/nuvens/background.png) repeat-x;
+	background-color: #85B9DF;
+}
+
+#page {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+#page header {
+	height: 237px;
+	border: 5px solid white;
+	background-image: url(/GitHub/css-templates/img/nuvens/picture.jpg);
+	background-repeat: no-repeat;
+}
+
+#page header h1 {
+	color: white;
+	padding-left: 10px;
+	font-family: Arial, Sans-serif;
+}
