@@ -1,31 +1,65 @@
 
 * {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	list-style: none;
 }
 
 body {
 	background: url(/GitHub/css-templates/img/nuvens/background.png) repeat-x;
-	background-color: #85B9DF;
+	background-color: #8CBDE1;
 }
 
-#page {
-	width: 900px;
-	margin: 0 auto;
-	margin-top: 10px;
-	overflow: hidden;
-}
-
-#page header {
+header {
 	height: 237px;
+	width: 900px;
+	margin-top: 10px;
 	border: 5px solid white;
 	background-image: url(/GitHub/css-templates/img/nuvens/picture.jpg);
 	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
-#page header h1 {
+header h1 {
 	color: white;
 	padding-left: 10px;
 	font-family: Arial, Sans-serif;
+}
+
+.borders {
+	width: 220px;
+	height: 13px;
+	background-repeat: no-repeat;
+}
+
+#content {
+	height: 237px;
+	width: 900px;
+	margin-top: 10px;
+	padding-bottom: 50px;
+	border: 5px solid white;
+	background-color: white;	
+	overflow: hidden;
+}
+
+#left-bar {
+	margin: 0;
+	width: 220px;
+	background-color: #AFD3EB;
+}
+
+#left-bar section h1 {
+	font-family: Arial, Sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #316CA0;
+	padding-left: 10px;
+}
+
+#left-border-top {
+	background-image: url(/GitHub/css-templates/img/nuvens/leftcol_top.png);
+}
+
+#left-border-bottom {
+	background-image: url(/GitHub/css-templates/img/nuvens/leftcol_bottom.png);
 }
